@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "comment": "File system operations - read, write, list directories. Points to your Desktop for easy access.",
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\Path"
+      ],
+      "env": {}
+    },
+    "fetch": {
+      "comment": "Fetch and read web pages - useful for getting content from URLs",
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-fetch"
+      ],
+      "env": {}
+    },
+    "memory": {
+      "comment": "Memory/knowledge graph for persistent agent memory across sessions",
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env": {}
+    }
+  }
+}
